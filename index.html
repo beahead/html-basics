@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML Basics</title>
+</head>
+<body>
+	<h1 id="toc">TOC</h1>
+	<ol>
+		<li>
+			<a href="#paragraphs">Paragraphs</a>
+		</li>
+		<li>
+			<a href="#lists">Lists</a>
+		</li>
+		<li>
+			<a href="#images">Pictures</a>
+		</li>
+		<li>
+			<a href="#table">Table</a>
+		</li>
+		<li>
+			<a href="#forms">Forms</a>
+		</li>
+	</ol>
+	<h1>Header 1</h1>
+	<a id="paragraphs"></a>
+	<p>
+		This is my first paragraph.	
+	</p>
+	<p>
+		This is my second paragraph.
+	</p>
+	<a href="#">Home</a>
+	<a id="lists"></a>
+	<h2>Header 2</h2>
+	<ul>
+		<li>
+			Ginger Bread
+		</li>
+		<li>
+			Custard Creams
+		</li>
+		<li>
+			Bourbons
+		</li>
+		<li>
+			Shortbread
+		</li>
+	</ul>
+	<ul>
+		<li>
+			Ginger Bread
+			<ul>
+				<li>
+					House
+				</li>
+				<li>
+					Man
+				</li>
+			</ul>
+		</li>
+		<li>
+			Custard Creams
+		</li>
+		<li>
+			Bourbons
+		</li>
+		<li>
+			Shortbread
+		</li>
+	</ul>
+	<ol>
+		<li>
+			Crochet
+		</li>
+		<li>
+			Knitting
+		</li>
+		<li>
+			Tatting
+		</li>
+		<li>
+			Cross Stitch
+		</li>
+	</ol>
+	<a href="#">Home</a>
+	<a id="images"></a>
+	<h3>Header 3</h3>
+	<a href="http://www.lookatwhatimade.net/">Pretty crochet patterns and inspiration</a>
+	<img src="http://www.lookatwhatimade.net/wp-content/uploads/2015/05/Sophies-Universe-Part-18-Softfun.jpg">
+	<img src="https://s-media-cache-ak0.pinimg.com/736x/79/7f/58/797f58789e1b429ecd5fcdb4e22ec5d6.jpg">
+	<a href="#">Home</a>
+	<a id="table"></a>
+	<h4>Header 4</h4>
+	<table>
+		<tr>
+			<th>
+				
+			</th>
+			<th>
+				Pattern
+			</th>
+			<th>
+				Skill
+			</th>
+			<th>
+				Time
+			</th>
+		</tr>
+		<tr>
+			<th>
+				1
+			</th>
+			<td>
+				Sophie's Universe
+			</td>
+			<td>
+				Crochet
+			</td>
+			<td>
+				Circa 7 weeks
+			</td>
+		</tr>
+		<tr>
+			<th>
+				2
+			</th>
+			<td>
+				Summer in Swanage
+			</td>
+			<td>
+				Crochet
+			</td>
+			<td>
+				Circa 4 weeks
+			</td>
+		</tr>
+	</table>
+	<a href="#">Home</a>
+	<hr>
+	<form id="forms">
+		<label>
+			First name
+			<input type="text" name="first_name">
+		</label>
+		<br>
+		<label>
+			Surname
+			<input type="text" name="last_name">
+		</label>
+		<br>
+		<label>
+			City
+			<input type="text" name="home_city">
+		</label>
+	</form>
+	<form>
+		<table>
+			<tr>
+				<th>
+					First name
+				</th>
+				<td>
+					<input type="text" name="first_name">
+				</td>
+			</tr>
+			<tr>
+				<th>
+					Surname
+				</th>
+				<td>
+					<input type="text" name="second_name">
+				</td>
+			</tr>
+			<tr>
+				<th>
+					Age
+				</th>
+				<td>
+					<input type="number" name="Age">
+				</td> 
+			</tr>
+			<tr>
+				<th>
+					Do you like cake?
+				</th>
+				<td>
+					<label>
+						Yes
+						<input type="radio" name="cake" value="yes">
+					</label>
+					<br>
+					<label>
+						I'm wrong!
+						<input type="radio" name="cake" value="no">
+					</label>
+				</td>
+			</tr>
+			<tr>
+				<th>
+					Do you like cats?
+				</th>
+				<td>
+					<label>
+						I do
+						<input type="checkbox" name="cats">
+					</label>
+				</td>
+			</tr>
+			<tr>
+				<th>
+					I want to learn
+				</th>
+				<td>
+					<select name="learn">
+						<option value="crochet">
+							Crochet
+						</option>
+						<option value="knitting">
+							Knitting
+						</option>
+						<option value="machine-knitting">
+							Machine Knitting
+						</option>
+					</select>
+				</td>
+			</tr>
+		</table>
+		<button type="submit">
+			Enter
+		</button>
+	</form>
+	<form action="https://google.co.uk">
+		<label>
+			Search Google
+			<input type="text" name="q">
+		</label>
+	</form>
+	<a href="#">Home</a>
+</body>
+</html>
